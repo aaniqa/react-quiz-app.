@@ -1,12 +1,32 @@
-# React + Vite
+# React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive Quiz App built with **React**, demonstrating front-end fundamentals, state management, and user-friendly UI/UX.
 
-Currently, two official plugins are available:
+## Live Demo
+[View the live app here](https://react-quiz-app-delta-seven.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Loads 5–10 multiple-choice questions from a **local JSON file** (or API).  
+- Displays **one question at a time** with four options.  
+- Tracks correct and incorrect answers.  
+- Shows **final score** and a **summary of answers** on the Results page.  
+- Allows users to **restart the quiz**.  
+- Responsive layout for **desktop and mobile**.  
+- Clean and modern UI with readable fonts.  
 
-## Expanding the ESLint configuration
+### Bonus Features (if implemented)
+- Progress indicator (e.g., “Question 3 of 10”).  
+- Timer per question (auto-locks answer when time runs out).  
+- Subtle animations and button feedback.  
+- Accessibility support (keyboard navigation, ARIA labels).  
+- Persistent high scores via `localStorage`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+- React (Functional Components & Hooks: `useState`, `useEffect`)  
+- CSS / Tailwind / Styled Components (based on what you used)  
+- React Router (for `/quiz` and `/results` routes)  
+
+## Installation & Running Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/react-quiz-app.git
